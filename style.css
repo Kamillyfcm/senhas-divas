@@ -8,6 +8,8 @@
     --borda: #FB6F92;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
+    cursor:url('star_light_effect_35_9d5053a89d-removebg-preview.png'),auto;
+
 }
 
 *{
@@ -97,7 +99,6 @@ body{
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
-    cursor:pointer
 }
 
 .parametro-senha__texto{
