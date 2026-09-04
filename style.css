@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 
 :root{
     --branco: black;
@@ -6,8 +7,9 @@
     --fundo-senha: #FFCFD2;
     --fundo-texto: #FFC2D1;
     --borda: #FB6F92;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
     cursor:url('star_light_effect_35_9d5053a89d-removebg-preview.png'),auto;
 
 }
@@ -19,17 +21,17 @@
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    font-family: var('Just Another Hand');
 
 }
 
 .titulo-principal{
     font-family: var(--roboto-mono);
-    font-size: 32px;
+    font-size: 60px;
 }
 
 .titulo-secundario{
-    font-size: 24px;
+    font-size: 34px;
 }
 
 .conteudo-titulo{
@@ -42,6 +44,7 @@ body{
     background: var(--fundo-senha);
     padding: 24px;
     border-bottom: 6px solid var(--borda);
+    font-size: 30px;
 }
 
 #campo-senha{
@@ -49,7 +52,7 @@ body{
     border: none;
     color: var(--branco);
     font-family: var(--roboto-mono);
-    font-size: 40px;
+    font-size: 70px;
     width: 70%;
 }
 
@@ -75,7 +78,7 @@ body{
 }
 
 .parametro-senha__titulo{
-    font-size:24px;
+    font-size:30px;
 }
 
 .parametro-coluna__senha{
@@ -86,6 +89,7 @@ body{
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
+    font-size: 30px;
 }
 
 .parametro-senha-botoes{
@@ -98,7 +102,7 @@ body{
     color: var(--branco);
     border: 2px solid var(--borda);
     padding: 24px;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .parametro-senha__texto{
@@ -106,7 +110,21 @@ body{
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
     margin: 0px;
-    font-size: 24px;
+    font-size: 30px;
+}
+
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.fraca{
+    height:30px;
+    width: 25%;
+    background-color: #FFE5EC;
+    position:relative;
+    bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
