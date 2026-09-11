@@ -119,12 +119,31 @@ body{
     width: 100%;
 }
 
-.fraca{
+.força {
     height:30px;
-    width: 25%;
-    background-color: #FFE5EC;
     position:relative;
     bottom: 30px;
+}
+
+.fraca{
+    width: 25%;
+    background-color: #FFE5EC;
+}
+
+.media {
+    width: 25%;
+    background-color: #FFB3C6;
+}
+
+.forte{
+    width: 25%;
+    background-color: #FB6F92;
+}
+
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 @media screen and (min-width: 768px) {
